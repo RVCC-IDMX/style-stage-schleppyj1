@@ -1,0 +1,72 @@
+/* main */
+@import url(https://fonts.googleapis.com/css?family=Chewy);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+.container {
+  display: grid;
+  /*margin: 2rem;*/
+  line-height: 1.8;
+  font-size: var(--font-size-fluid-1);
+  font-family: "Roboto";
+}
+
+body {
+  background-image: linear-gradient(#FFFFFF, #ddf7ff);
+  margin: 25px 50px 75px 100px;
+}
+
+h1 {
+  font-family: "Chewy";
+  font-size: var(--font-size-fluid-3);
+  margin-left: -2rem;
+  letter-spacing: var(--font-letterspacing-4);
+}
+
+h2 {
+  margin-left: -2rem;
+  font-size: var(--font-size-fluid-2);
+}
+
+h3 {
+  margin-left: -2rem;
+}
+
+h4 {
+  margin-left: -2rem;
+}
+
+ul {
+  /*margin: 2rem;*/
+  line-height: 2.5;
+  font-family: "Roboto";
+}
+
+p {
+  margin-left: -2rem;
+}
+
+.link-guidelines {
+  margin-left: -2rem;
+}
+
+li {
+  margin-left: -2rem;
+  line-height: 1.8;
+}
+
+.skip-link {
+  margin-left: -2rem;
+}
+
+.skip-link:hover,
+.skip-link:focus {
+  visibility: visible;
+}
+
+.skip-link:not(:focus) {
+  visibility: collapse;
+}
+
+a {
+  line-height: 2.5;
+  font-family: "Roboto";
+}
