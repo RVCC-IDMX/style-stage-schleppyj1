@@ -5,7 +5,6 @@
 
 .container {
     display: grid;
-    /*margin: 2rem;*/
     line-height: 1.8;
     font-size: var(--font-size-fluid-1);
     font-family: "Roboto";
@@ -80,4 +79,8 @@ a {
     position: absolute;
     white-space: nowrap;
     width: 1px;
+}
+
+:where(ul, ol) {
+    list-style-position: inside;
 }

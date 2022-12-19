@@ -47,3 +47,10 @@ Use this as the "Publish command" if needed by hosting services such as Netlify.
 - Styling the links
 - Styling the lists
 - Used lighthouse to check accessibility
+
+Resources:
+- Color Palette Link: https://www.color-hex.com/color-palette/1020588
+- I used two google fonts:
+    - Unbounded font: https://fonts.google.com/specimen/Unbounded?category=Display
+    - Roboto font: https://fonts.google.com/specimen/Roboto?category=Sans+Serif
+    
