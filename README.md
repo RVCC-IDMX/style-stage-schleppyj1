@@ -42,7 +42,8 @@ Use this as the "Publish command" if needed by hosting services such as Netlify.
 - Used Custom Properties
 - Used fluid sizing to make sure that the font does not jump between screen sizes
 - Included typography effects such as letter spacing and line height
-- Styled the background by having a gradient color change from white to light blue
+- Styled the background by having a gradient color change from pink, to white, to light green
+- Added CSS to make the skip link only visible when it has the focus
 - Styling the links
 - Styling the lists
 - Used lighthouse to check accessibility
