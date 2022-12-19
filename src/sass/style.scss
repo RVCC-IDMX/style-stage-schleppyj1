@@ -1,5 +1,5 @@
 /* main */
-@import url(https://fonts.googleapis.com/css?family=Inter);
+@import url(https://fonts.googleapis.com/css?family=Unbounded);
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
 
@@ -17,21 +17,25 @@ body {
 }
 
 h1 {
-    font-family: "Inter", sans-serif;
+    font-family: "Unbounded";
     font-size: var(--font-size-fluid-3);
     margin-left: -2rem;
     letter-spacing: var(--font-letterspacing-3);
+    color: var(--pink-12);
+    font-weight: var(--font-weight-9);
 }
 
 h2 {
     margin-left: -2rem;
     font-size: var(--font-size-fluid-2);
     letter-spacing: var(--font-letterspacing-2);
+    font-weight: var(--font-weight-5);
 }
 
 h3 {
     margin-left: -2rem;
     letter-spacing: var(--font-letterspacing-3);
+    font-weight: var(--font-weight-3);
 }
 
 h4 {
