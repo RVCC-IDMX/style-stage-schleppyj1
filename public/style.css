@@ -60,16 +60,17 @@ li {
   margin-left: -2rem;
 }
 
-.skip-link:hover,
-.skip-link:focus {
-  visibility: visible;
-}
-
-.skip-link:not(:focus) {
-  visibility: collapse;
-}
-
 a {
   line-height: 2.5;
   font-family: "Roboto";
+}
+
+.skip-link:not(:focus) {
+  clip-path: inset(100%);
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
